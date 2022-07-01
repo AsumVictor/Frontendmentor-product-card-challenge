@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://github.com/Asumvictor-dev/Frontendmentor-product-card-challenge)
-- Live Site URL: [Preview website](https://your-live-site-url.com)
+- Live Site URL: [Preview website](https://asumvictor-dev.github.io/Frontendmentor-product-card-challenge/)
 
 ## My process
 
