@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+  body{
+   background-color: hsl(30, 38%, 92%);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 100vh;
+   align-items: center;
+  }
+  .container{
+    width: 520px;
+    display: flex;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  }
+ 
+  .img-box{
+    border-radius: 15px 0px 0px 15px;
+    position: relative;
+    height: 379px;
+    overflow: hidden;
+    width: 50%;
+  }
+  .img-box > img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: inline;
+    top:0%;
+    left: 0%;
+   }
+   .desktop{
+    visibility: visible;
+    height: 100%;
+    width: 100%;
+   }
+   .mobile{
+    visibility: hidden;
+    height: 100%;
+    width: 100%;
+   }
+
+
+   .item-details {
+    border-radius: 0px 15px 15px 0px;
+    background-color: hsl(0, 0%, 100%);
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 379px;
+    overflow: hidden;
+    width: 50%;
+    }
+
+ .small p{
+      text-transform: uppercase;
+      color: hsl(228, 12%, 48%);
+      font-family: Montserrat;
+      font-weight: 500;
+      margin-top: 35px;
+      font-size: small;
+   }
+
+   h2{
+    font-family: Fraunces;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+    margin-top: 10px;
+    font-size: 28px;
+   }
+
+   p{
+    font-size: 12px;
+     color: hsl(228, 12%, 48%);
+     margin-top: 15px;
+     font-family: Montserrat;
+     line-height: 18px;
+   }
+
+   .price{
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     align-items: center;
+     margin-top: 15px;
+   }
+ 
+   .price .current-price{
+    font-family: Montserrat;
+    font-size: 28px;
+    color: hsl(158, 36%, 37%);
+   }
+
+   .price del{
+    font-family: Montserrat;
+    font-size: 12px;
+    margin-left: 20px;
+    color: hsl(228, 12%, 48%);
+
+   }
+
+   button{
+     height: 1.0cm;
+     width: 100%;
+     overflow: unset;
+     border: 0px;
+     border-radius: 10px;
+     color: hsl(0, 0%, 100%);
+     background-color: hsl(158, 36%, 37%);
+     font-family: Montserrat;
+     cursor: pointer;
+     margin-top: 15px;
+    }
+    button:active{
+     background-color: hsl(158, 41%, 29%);
+
+    }
+
+   .attribution{
+    position: absolute;
+    bottom: 0px;
+   } 
+
+  @media screen and (max-width:500px) {
+    .container{
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+      .container .box{
+        width: 90%;
+      }
+
+      .img-box{
+        border-radius: 15px 15px 0px 0px;
+        position: relative;
+        height: 250px;
+      }
+
+      .desktop{
+        visibility: hidden;
+
+       }
+       .mobile{
+        visibility: visible;
+
+       }
+       
+       .item-details {
+        border-radius: 0px 0px 15px 15px;
+        }
+
+  }
