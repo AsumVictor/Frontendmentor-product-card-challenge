@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](C:\Users\Neo\Desktop\vic\product-preview-card-component-main/screenshoot.PNG)
+![](screenshoot.PNG)
 
 ### Links
 
@@ -66,7 +66,7 @@ const proudOfThisFunc = () => {
 ## Author
 
 - Website - [Asum victor](https://www.your-site.com)
-- Frontend Mentor - [@Asumvictor-dev]https://www.frontendmentor.io/profile/Asumvictor-dev)
+- Frontend Mentor - [@Asumvictor-dev]( https://www.frontendmentor.io/profile/Asumvictor-dev)
 - Twitter - [@iamasum369](https://twitter.com/iamasum369)
 
 
